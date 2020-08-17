@@ -1,5 +1,4 @@
-import { createGlobalStyle  } from 'styled-components'
-
+import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   * {
@@ -7,7 +6,7 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   *, button, input {
     font-family: Roboto, sans-serif;
   }
@@ -21,4 +20,4 @@ export default createGlobalStyle`
     --color-border: #bdc4c9;
   }
 
-`
+`;
